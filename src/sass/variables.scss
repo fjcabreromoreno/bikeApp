@@ -1,0 +1,53 @@
+$black: #000;
+$white: #fff;
+$primary-purple: #919dff;
+$primary-violet: #536dfe;
+$dark: #1d282e;
+$darker: #121212;
+$light-dark: #263238;
+$error-red: #d32f2f;
+$success-green: #2e7d32;
+$grey-gradient: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 8%) 0%,
+    rgb(255 255 255 / 8%) 100%,
+    rgb(255 255 255 / 8%) 100%
+  ),
+  #263238;
+$light-grey-gradient: linear-gradient(
+    180deg,
+    rgb(255 255 255 / 14%) 0%,
+    rgb(255 255 255 / 14%) 100%
+  ),
+  #263238;
+$grey: #bdbdbd;
+$background-dark-blue: #263238;
+
+@font-face {
+  font-family: RobotoLight;
+  font-weight: 300;
+  src: url('../assets/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  font-weight: 400;
+  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  font-weight: 500;
+  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: RobotoBold;
+  font-weight: 700;
+  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+$font-light: 'RobotoLight';
+$font: 'RobotoRegular';
+$font-medium: 'RobotoMedium';
+$font-title: 'RobotoBold';

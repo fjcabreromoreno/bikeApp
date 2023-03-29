@@ -1,0 +1,13 @@
+.react-daterange-picker__wrapper {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2.5px;
+  .react-date-picker__inputGroup__divider,
+  .react-daterange-picker__range-divider {
+    color: #444;
+  }
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: #444;
+}

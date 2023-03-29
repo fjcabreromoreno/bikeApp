@@ -1,0 +1,61 @@
+.homeWrapper {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 50px;
+}
+
+.homeTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0.3;
+  flex-flow: column;
+  h3 {
+    color: $primary-purple;
+  }
+  p {
+    margin-top: 15px;
+    span {
+      color: $primary-purple;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0.2;
+  flex-flow: column;
+}
+
+input[name='name'],
+input[name='phone'],
+input[name='email'] {
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+  width: 220px;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin-right: 0.75rem;
+}
+
+textarea {
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: block;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.button {
+  align-items: center;
+  background-color: #e5e5e5;
+  border: solid 1px #666666;
+  border-radius: 8px;
+  color: #666666;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: $primary-purple;
+  cursor: pointer;
+}
+
+.leftStar {
+  margin-right: 10px;
+}
+
+.rightStar {
+  margin-left: 10px;
+}

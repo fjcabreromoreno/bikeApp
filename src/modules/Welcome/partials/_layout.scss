@@ -1,0 +1,31 @@
+.WelcomeWrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.infoWrapper {
+  text-align: center;
+  flex-grow: 0.2;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  p {
+    color: $primary-purple;
+    margin-top: 15px;
+  }
+}
+
+.imagePickerWrapper {
+  flex-grow: 0.3;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

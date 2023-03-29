@@ -1,0 +1,20 @@
+.MuiDialog-container {
+  .MuiDialog-paper {
+    .MuiDialogContent-root {
+      text-align: center;
+      p {
+        margin-bottom: 10px;
+      }
+      button {
+        text-transform: none;
+        background: $primary-purple;
+        margin: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        transition: 0.7s;
+        &:hover {
+          background: $primary-violet;
+        }
+      }
+    }
+  }
+}

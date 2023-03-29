@@ -1,0 +1,13 @@
+//  *** GENERAL *** //
+@import 'sass/variables';
+@import 'sass/base';
+
+//  *** COMPONENTS *** //
+@import './components/Dialog/partials/';
+@import './components/NavBar/partials/';
+@import './components/Button/partials/';
+
+//  *** MODULES *** //
+@import './modules/Welcome/partials/';
+@import './modules/Home/partials/';
+@import './modules/Summary/partials/';
