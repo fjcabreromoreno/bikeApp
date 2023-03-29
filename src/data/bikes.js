@@ -8,7 +8,7 @@ export const bikes = [
     src: classicBike,
     width: 320,
     height: 213,
-    tags: [{ value: 'Vintage Bike', title: 'Vintage Bike' }],
+    tags: [{ value: 'Vintage', title: 'Vintage' }],
     isSelected: false,
   },
   {
@@ -16,7 +16,7 @@ export const bikes = [
     src: electricBike,
     width: 320,
     height: 213,
-    tags: [{ value: 'Electric Bike', title: 'Electric Bike' }],
+    tags: [{ value: 'Eléctrica', title: 'Electric Bike' }],
     isSelected: false,
   },
   {
@@ -24,7 +24,7 @@ export const bikes = [
     src: regularBike,
     width: 320,
     height: 213,
-    tags: [{ value: 'Regular Bike', title: 'Regular Bike' }],
+    tags: [{ value: 'Clásica', title: 'Clásica' }],
     isSelected: false,
   },
 ];
