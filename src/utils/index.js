@@ -1,6 +1,12 @@
 import moment from 'moment';
 import { useState } from 'react';
 
+export const BIKE_TYPE = {
+  CLASSIC: 'bicicleta clásica',
+  VINTAGE: 'bicicleta vintage',
+  ELECTRIC: 'bicicleta eléctrica',
+};
+
 var setIsOpen, setSummary, setButtons, setHandleExit;
 export var showInteractiveHelp;
 
@@ -42,16 +48,16 @@ export function calculatePrice(bike, from, to) {
     basePrize = getBasePrize(parseInt(from.split('-')[2]), 10);
   let finalPrize = '';
 
-  if (bike === 'bicicleta eléctrica') {
-    console.log('1', diff);
-    console.log('2', basePrize);
-    finalPrize = diff * basePrize;
-  } else {
-    if (bike === 'bicicleta vintage') {
-      finalPrize = diff <= 5 ? basePrize : basePrize * (diff - 5);
-    } else {
-      finalPrize = diff <= 5 ? basePrize : basePrize * (diff - 3);
-    }
+  switch (bike) {
+    case BIKE_TYPE.CLASSIC:
+      finalPrize = diff <= 3 ? basePrize : basePrize * (diff - 2);
+      break;
+    case BIKE_TYPE.VINTAGE:
+      finalPrize = diff <= 5 ? basePrize : basePrize * (diff - 4);
+      break;
+    default:
+      finalPrize = diff * basePrize;
+      break;
   }
 
   return { finalPrize, days: diff };

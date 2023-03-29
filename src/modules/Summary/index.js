@@ -20,7 +20,6 @@ function Summary({ selectedBike }) {
               <th>Total</th>
             </tr>
           </thead>
-
           <tbody>
             <tr className="order">
               <td>{selectedBike.name}</td>
